@@ -1,0 +1,9 @@
+<p>Add Todos</p>
+
+<form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
+    <input class="form-control w-25" type="text" name="title" ngModel /> <br>
+    <input class="form-control w-25" type="text" name="description" ngModel /> <br>
+    <button class="btn btn-sm btn-primary" type="submit">Add</button>
+</form>
+
+<hr>
